@@ -10,7 +10,7 @@ public class Main {
         }
 
 
-        int randIndex = (int)(Math.random()*(100)+1);
+        int randIndex = (int)(Math.random()*(myNumList.length));
         int randNumToFind = myNumList[randIndex];
 
         //linear search
